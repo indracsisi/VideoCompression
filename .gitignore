@@ -1,0 +1,54 @@
+# --- Python cache & env ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.env
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp artifacts ---
+*.log
+*.tmp
+*.json
+tmp/
+temp/
+cache/
+
+# --- Notebook checkpoints (if any Jupyter added later) ---
+.ipynb_checkpoints/
+
+# --- Generated media from runs (keep repo clean) ---
+*_final.*
+clip_*.mkv
+clip_*.mp4
+*.y4m
+*.ivf
+
+# --- Data folders: keep structure with .gitkeep only ---
+# Ignore user-provided inputs and produced outputs, but keep the directory and .gitkeep
+Data/testbench_small/*
+!Data/testbench_small/.gitkeep
+Data/testbench_small_output/*
+!Data/testbench_small_output/.gitkeep
+
+# --- OS metadata (Linux/mac/Windows) ---
+*.swp
+*.swo
+*~

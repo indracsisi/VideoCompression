@@ -1,0 +1,10 @@
+# No third-party Python packages are required by compress.py (stdlib only).
+# The pipeline depends on your local FFmpeg build:
+#   - libvmaf
+#   - libsvtav1
+#   - libx265
+#   - libx264
+#
+# If you later add CSV/Excel summaries, you may add:
+pandas
+openpyxl
