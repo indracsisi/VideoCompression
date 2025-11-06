@@ -4,9 +4,9 @@ from typing import List, Tuple, Dict, Optional
 # ----------------------------
 # Config / Paths
 # ----------------------------
-INPUT_DIR   = "/home/indranil/video_process/video_10s_tests"
-EXCEL_PATH  = "/home/indranil/video_process/video_10s_test.xlsx"
-CSV_FALLBACK_PATH = "/home/indranil/video_process/video_10s_test.csv"
+INPUT_DIR   = "/home/indranil/video_process/test_videos"
+EXCEL_PATH  = "/home/indranil/video_process/test_videos_report.xlsx"
+CSV_FALLBACK_PATH = "/home/indranil/video_process/test_videos_report.csv"
 
 # ----------------------------
 # Optional dependencies
