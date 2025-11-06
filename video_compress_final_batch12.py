@@ -32,7 +32,7 @@ LV_HIGH = 230     # 100..229 = mid-detail; >=230 = high-detail
 # ----------------------------
 # Working scales (internal downscale) — final is restored to original size in the SAME encode.
 SCALES_FLAT      = [1.00, 0.90, 0.83]
-CRF_COARSE_FLAT  = [52, 48, 44, 40]
+CRF_COARSE_FLAT  = [52, 48, 44, 40, 36]
 REFINE_FLAT      = [-2, -1, +1, +2]
 
 SCALES_MID       = [1.00, 0.95, 0.90]
@@ -40,7 +40,7 @@ CRF_COARSE_MID   = [50, 48, 46, 44, 42]
 REFINE_MID       = [-2, -1, +1]
 
 SCALES_DETAILED  = [1.00, 0.95]
-CRF_COARSE_HIGH  = [48, 46, 44, 42, 40, 38, 36]
+CRF_COARSE_HIGH  = [52, 50, 48, 44, 40, 38, 36]
 REFINE_HIGH      = [-2, -1, +1, +2]
 
 def bounded_crf(v: int, lo=30, hi=60):
